@@ -196,7 +196,7 @@ function Approvals() {
 
       {(user.role === "HR" || user.role === "HEAD") && (
         <div className="card" style={{ marginTop: 16 }}>
-          <h3>สร้างคำขออัตราใหม่</h3>
+          <h3>ขออนุมัติส่งสำนักงานบุคคล(อัตราใหม่/อัตราทดเเทน) </h3>
           <form className="form-grid" onSubmit={handleCreateRequest}>
             <input
               type="text"
